@@ -1,5 +1,5 @@
 .about-section {
-  padding-top: 100px;
+  background-color: brown;
 }
 
 .about-section__container {
@@ -9,13 +9,11 @@
   padding-left: 20px;
   padding-right: 20px;
   justify-content: center;
-  // max-width: 320px;
-
-  background-color: $product-background;
   background-image: url(./../images/mob.img/about/sectionbg11.png.png);
-  background-repeat: no-repeat;
   background-size: contain;
   background-position: 0% 87%;
+  background-repeat: no-repeat;
+  // background-color: $product-background;
 
   @media screen and (min-width: 320px) {
     max-width: 767px;
@@ -24,40 +22,43 @@
     padding-bottom: 15px;
   }
   @media screen and (min-width: 768px) {
+    align-items: center;
     max-width: 1279px;
     background-image: none;
   }
-  @media screen and (min-width: 1280px) {
+
+  @media screen and (min-width: 1200px) {
     max-width: 1366px;
-    padding-left: 46px;
-    padding-right: 115px;
-    max-height: 800px;
+    // padding-left: 46px;
+    // padding-right: 115px;
+    // max-height: 800px;
     background-image: url(./../images/desktop/about/sectionbg11-desktop.png);
-    background-position: bottom;
+    background-position: 0% 70%;
     padding-bottom: 0;
   }
-
-  // @media screen and (min-width: 320px) {
-  //   padding-top: 125px;
-  //   padding-bottom: 50px;
-  // }
-
-  // @media screen and (min-width: 320px) and (max-width: 767px) {
-  //   display: flex;
-  //   justify-content: center;
-  //   flex-direction: column;
-  // }
-  // @media screen and (min-width: 768px) {
-  //   padding: 120px 34px 0 34px;
-  //   background-image: none;
-  // }
-
-  // @media screen and (min-width: 1280px) {
-  //   padding: 130px 115px 0 115px;
-  //   background-image: url(./../images/desktop/about/sectionbg11-desktop.png);
-  //   background-position: center;
-  // }
 }
+// .about-section__box {
+// @media screen and (min-width: 320px) {
+//   padding-top: 125px;
+//   padding-bottom: 50px;
+// }
+
+// @media screen and (min-width: 320px) and (max-width: 767px) {
+//   display: flex;
+//   justify-content: center;
+//   flex-direction: column;
+// }
+// @media screen and (min-width: 768px) {
+//   padding: 120px 34px 0 34px;
+//   background-image: none;
+// }
+
+// @media screen and (min-width: 1280px) {
+//   padding: 130px 115px 0 115px;
+//   background-image: url(./../images/desktop/about/sectionbg11-desktop.png);
+//   background-position: center;
+// }
+// }
 
 .about-section__label {
   display: flex;
@@ -74,7 +75,7 @@
     font-size: 26px;
     text-align: center;
   }
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     font-size: 30px;
     text-align: center;
   }
@@ -93,7 +94,7 @@
     font-size: 48px;
     padding-bottom: 49px;
   }
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     font-size: 58px;
     padding-bottom: 100px;
   }
@@ -117,7 +118,7 @@
     display: flex;
     padding-bottom: 56px;
   }
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
     padding-bottom: 39px;
     justify-content: center;
@@ -134,7 +135,7 @@
       margin-right: 20px;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1200px) {
       width: 530px;
       height: 667px;
       margin-right: 74px;
@@ -174,7 +175,7 @@
       //   line-height: 2;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1200px) {
       margin-left: 0px;
       margin-right: 0px;
       //   width: 641px;
@@ -212,7 +213,7 @@
       //   line-height: 2;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1200px) {
       margin-left: 0px;
       margin-right: 0px;
       //   width: 641px;
@@ -244,7 +245,7 @@
       //   line-height: 2;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1200px) {
       margin-left: 0px;
       margin-right: 0px;
       //   width: 641px;
